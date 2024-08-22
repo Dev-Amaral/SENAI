@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+</head>
+<body>
+
+    <h1>Boletim de Ocorrêmcia de Acidente</h1>
+    <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/15664935-proteja-o-icone-do-acidente-de-carro-estilo-do-contorno-vetor.jpg" alt="" width="300">
+    <hr>
+    <h1>Dados do proprietário</h1>
+    <form>
+        <label for="nome">Nome completo:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="Data de Nascimento">Data de Nascimento:</label>
+        <input type="date">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password">
+        <br><br>
+        <h2>Endereço</h2>
+        <input type="text" placeholder="Cidade"><br>
+        <input type="text"placeholder="Bairro"><br>
+        <input type="number" placeholder="Numero"><br>
+        
+       <hr>
+       <h1>Dados do Veículo:</h1>
+
+       <form >
+        <input type="text" placeholder="Marca"><br><br>
+        <input type="text" placeholder="Modelo"> <br><br>
+        <label for="cor">Cor:</label>
+        <input id="color" type="color">
+        <br><br>
+        <label for="categoria">Categoria do Automóvel:</label>
+        <select id="categoria">
+            <option value="">Selecione</option>
+            <option value="">Sedan</option>
+            <option value="">Hatch</option>
+            <option value="">SUV</option>
+            <option value="">Picape</option>
+            <option value="">Minivan</option>
+            <option value="">Crossover</option>
+            <option value="">Esportivo</option>
+            <option value="">Outro</option>
+            
+
+        </select>
+        <br><br>
+        <label for="file">Anexe o CRLV do Veículo</label>
+        <input type="file">
+        <hr>
+        <h1>Dados do acidente</h1>
+        <label for="time">Horário do acidente:</label>
+        <input id="time" type="time"> <br><br>
+        
+        <label for="data acidente">Data do acidente:</label>
+        <input id="data acidente" type="date"> 
+
+       </form>
+        
+       <hr>
+       <br>
+       <input id = "radio" type="radio">
+       <label for="radio">Li e estou de acordo com os <a href="https://cptstatic.s3.amazonaws.com/pdf/cpt/codigo-civil/modelo-de-contrato-de-seguro.pdf">termos</a></label><br>
+       <br>
+       <label for="barra">Qualidade do atendimento:</label>
+       <input type="range"><br><br>
+       <input type="submit"name="Enviar dados">
+       <input type="reset" name="Resetar dados">
+
+
+    </form>
+    
+
+</body>
+</html>
